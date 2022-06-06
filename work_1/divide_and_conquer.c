@@ -95,3 +95,7 @@ long random(){
     seed = (a * seed +c)%m;
     return seed;
 }
+
+int main(){
+    
+}
