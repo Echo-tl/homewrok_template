@@ -5,11 +5,6 @@
 #include <cstdlib> 
 #include <ctime>
 
-static long seed = 13;
-static long a;
-static long c;
-static long m;
-
 //冒泡排序
 void BubbleSort(int a[],int n){
     int count1 = 0;
