@@ -98,7 +98,7 @@ void QuickSort(int a[], int start, int end){
 }
 
 //生成随机数
-void random(int a[], inty n, int l, int r){
+void random(int a[], int n, int l, int r){
     srand(time(0)); //设置时间种子
     for(int i = 0; i<n; i+=){
         a[i] = rand()%(r-l+1)+1; //生成区间r-l的随机数
