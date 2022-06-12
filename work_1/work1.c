@@ -5,6 +5,9 @@
 #include <cstdlib> 
 #include <ctime>
 
+int count2 = 0;
+int count3 = 0;
+
 //冒泡排序
 void BubbleSort(int a[],int n){
     int count1 = 0;
@@ -18,39 +21,39 @@ void BubbleSort(int a[],int n){
             }
         }
     }
-    print("冒泡排序的比较次数为：%d",count1);
+    printf("冒泡排序的比较次数为：%d\n",count1);
 }
 
 //合并排序
-void Merge(int a[], int left, int mid, int right){
+int Merge(int a[], int left, int mid, int right){
     int result[right - left];
-    int count2 = 0;
+    int count = 0;
     int k = 0;
     int i = left; //首元素下标
     int j = mid + 1; 
     while(i <= mid && j <= right){
         if(a[i] < a[j]){
-            count2++;
+            count++;
             result[k++] = a[i++];
         }
         else{
-            reslut[k++] = a[j++];
+            result[k++] = a[j++];
         }
     }
     if(i == mid+1){
         while(j <= right){
-            reslut[k++] = a[j++];
+            result[k++] = a[j++];
         }
     }
     if(j == right+1){
         while(i < mid){
-            reslut[k++] = a[i++];
+            result[k++] = a[i++];
         }
     }
-    for(j = 0; i =left; j<k; i++,j++){
+    for(j = 0; i =left, j<k; i++,j++){
         a[i] = result[j];
     }
-    printf("合并排序的比较次数：%d",count2);
+    return count;
 }
 
 //递归调用
@@ -59,13 +62,12 @@ void MergeSort(int a[], int left, int right){
         return;
     int mid = (left + right)/2;
     MergeSort(a, left, mid);
-    MergeSort(a, mid+1， right);
-    Merge(a, left, mid, right);
+    MergeSort(a, mid+1, right);
+    count2 += Merge(a, left, mid, right);
 }
 
 //快速排序
 int partition(int a[], int low, int high){
-    int count3 = 0;
     int key = a[low];
     while(low < high){
         while(low < high && a[high] >= key){
@@ -83,8 +85,7 @@ int partition(int a[], int low, int high){
         }
     }
     a[low] = key;
-    retur low;
-    printf("快速排序比较次数为：%d",count3);
+    return low;
 }
 
 //快速排序递归调用
@@ -100,17 +101,20 @@ void QuickSort(int a[], int start, int end){
 //生成随机数
 void random(int a[], int n, int l, int r){
     srand(time(0)); //设置时间种子
-    for(int i = 0; i<n; i+=){
+    for(int i = 0; i<n; i++){
         a[i] = rand()%(r-l+1)+1; //生成区间r-l的随机数
+        printf("%d ",a[i]);
     }
 }
 
 int main(){
     int n;
-    print("请输入随机数个数：");
+    printf("请输入随机数个数：");
     scanf("%d",&n);
     int a[n],b[n],c[n];
+    printf("生成的随机数依次为：\n");
     random(a, n, 0, 32767);
+    printf("\n");
     for(int i=0; i<n; i++){
         b[i] = a[i];
         c[i] = a[i];
@@ -118,6 +122,9 @@ int main(){
 
     BubbleSort(a, n); //测试冒泡排序
     MergeSort(b, 0, n); //合并排序
+    printf("合并排序的比较次数：%d\n",count2);
+    
     QuickSort(c, 0 ,n); //快速排序
+    printf("快速排序比较次数为：%d",count3);
     return 0;
 }

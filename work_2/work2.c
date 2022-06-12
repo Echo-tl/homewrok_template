@@ -1,11 +1,13 @@
 #include<stdio.h>
+#include <cstdlib> 
+#include <ctime>
 
 int max(int a, int b){
     if(a > b){
         return a;
     }
     else{
-        retur b;
+        return b;
     }
 }
 
@@ -34,8 +36,9 @@ int KnapsackDP(int n, int w[], int v[], int c){
 //生成随机数
 void random(int a[], int n, int l, int r){
     srand(time(0)); //设置时间种子
-    for(int i = 0; i<n; i+=){
+    for(int i = 0; i<n; i++){
         a[i] = rand()%(r-l+1)+1; //生成区间r-l的随机数
+        printf("%d ",a[i]);
     }
 }
 
@@ -51,13 +54,18 @@ int main(){
     int w[n]; //物品重量
     int v[n]; //物品价值
     
-    random(w, n, 0, 32767); //生成n个物品的重量
-    random(v, n, 0, 32767); //生成n个物品的价值
+    printf("n个物品的重量为：\n");
+    random(w, n, 0, 1000); //生成n个物品的重量
+    printf("\n"); 
+    
+    printf("n个物品的价值为：\n");
+    random(v, n, 0, 1000); //生成n个物品的价值
+    printf("\n"); 
 
     s = KnapsackDP(n, w, v, c); //调用函数
 
     printf("最大物品价值为：\n");
     printf("%d\n",s);
 
-    retturn 0;
+    return 0;
 }
