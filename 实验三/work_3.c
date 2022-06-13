@@ -70,13 +70,12 @@ void random(int a[], int n, int l, int r){
 }
 
 int main(){
-    //定义两个结构体
-    struct timeval start;
-    struct timeval end;
-    unsigned long timer;
+    //定义两个变量
+    clock_t start, finish;
+    double timer;
 
     //程序开始之前计时
-    gettimeofday(&start, NULL);
+    start = clock();
 
     int s; // 获得的最大价值
     int n;
@@ -108,9 +107,9 @@ int main(){
     KnapsackGreedy(p, w, x, n, c); //调用贪心算法
 
     //程序结束后计时
-    gettimeofday(&end, NULL);
-    timer = 1000000 * (end.tv_sec - start.tv_sec) + end.tv_usec - start.tv_usec ;
-    printf("time = %ld us\n", timer);
+    finish = clock();
+    timer = (double)(finish - start) / CLOCKS_PER_SEC ; //单位换位秒
+    printf("timer = %f s\n", timer);
 
     return 0;
 }
