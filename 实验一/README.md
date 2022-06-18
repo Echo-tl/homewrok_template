@@ -108,6 +108,8 @@
 
 2. 生成随机数10 个，100 个，1000 个，2000 个，5000个，10000 个，10000个，……）所得到的三种排序方法的比较操作执行的次数如下图所示：
 
-   
+<img width="410" alt="work2_1" src="https://user-images.githubusercontent.com/86522948/174436012-ce908e13-1285-490f-bd10-71c725fd0372.png">
+
+<img width="410" alt="work2_1" src="https://user-images.githubusercontent.com/86522948/174436012-ce908e13-1285-490f-bd10-71c725fd0372.png">
 
 3. 三种排序方法执行中各子问题的规模，表格方式记录所有情形各子问题的规模值如下：
