@@ -1,5 +1,10 @@
 实验三图片：
+
+
+
 <img width="410" alt="work3_1" src="https://user-images.githubusercontent.com/86522948/174435987-e56ec703-29d6-4888-81ca-c13de5aec9b4.png">
+
+
 
 
 
@@ -8,12 +13,21 @@
 
 
 
+
 实验一图片：
+
+
+
+
+
 <img width="410" alt="work2_1" src="https://user-images.githubusercontent.com/86522948/174436012-ce908e13-1285-490f-bd10-71c725fd0372.png">
 
 
 
+
+
 <img width="413" alt="work2_2" src="https://user-images.githubusercontent.com/86522948/174436015-e3bfce8a-ab97-4638-80bd-f5ea1184effa.png">
+
 
 
 
@@ -29,7 +43,10 @@
 
 
 
+
 <img width="424" alt="work2_5" src="https://user-images.githubusercontent.com/86522948/174436025-61da3c2f-3037-43c5-b5c7-e2149a7caf2e.png">
+
+
 
 
 
