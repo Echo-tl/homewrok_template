@@ -45,6 +45,7 @@
 
 + 实验过程及实验结果：
 
-<img src="C:\Users\h\AppData\Roaming\Typora\typora-user-images\image-20220618191355535.png" alt="image-20220618191355535" style="zoom:80%;" />
+<img width="410" alt="work3_1" src="https://user-images.githubusercontent.com/86522948/174435987-e56ec703-29d6-4888-81ca-c13de5aec9b4.png">
+ 
 
-<img src="C:\Users\h\AppData\Roaming\Typora\typora-user-images\image-20220618191440071.png" alt="image-20220618191440071" style="zoom:80%;" />
+<img width="418" alt="work3_2" src="https://user-images.githubusercontent.com/86522948/174435992-f070b83a-5e7b-4794-bab8-71e72aeb1cd9.png">
