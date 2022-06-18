@@ -47,10 +47,7 @@
 
 
 
-
-
 <img width="373" alt="work1_1" src="https://user-images.githubusercontent.com/86522948/174437562-06839aa8-dd44-4371-a22d-a82241d3925e.png">
-
 
 
 
