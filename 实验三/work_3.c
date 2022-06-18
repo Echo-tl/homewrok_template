@@ -72,7 +72,6 @@ void random(int a[], int n, int l, int r){
 int main(){
     //定义两个变量
     clock_t start, finish;
-    double timer;
 
     //程序开始之前计时
     start = clock();
@@ -108,8 +107,7 @@ int main(){
 
     //程序结束后计时
     finish = clock();
-    timer = (double)(finish - start) / CLOCKS_PER_SEC ; //单位换位秒
-    printf("timer = %f s\n", timer);
+    printf("程序运行时间为: %d s\n", finish - start);
 
     return 0;
 }

@@ -43,6 +43,12 @@ void random(int a[], int n, int l, int r){
 }
 
 int main(){
+    //定义两个变量
+    clock_t start, finish;
+
+    //程序开始之前计时
+    start = clock();
+
     int s; // 获得的最大价值
     int n;
     printf("请输入物品个数：\n");
@@ -66,6 +72,10 @@ int main(){
 
     printf("最大物品价值为：\n");
     printf("%d\n",s);
+
+    //程序结束后计时
+    finish = clock();
+    printf("程序运行时间为: %d s\n", finish - start);
 
     return 0;
 }
