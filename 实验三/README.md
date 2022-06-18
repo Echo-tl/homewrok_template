@@ -1,7 +1,9 @@
 # 第三次实验报告——贪心算法
 
 
+
 ## 学号：20201120559
+
 
 
 ## 1、实验目的：
@@ -43,8 +45,6 @@
 
 + 实验过程及实验结果：
 
-  <img src="C:\Users\h\AppData\Roaming\Typora\typora-user-images\image-20220613192930097.png" alt="image-20220613192930097" style="zoom:80%;" />
+<img src="C:\Users\h\AppData\Roaming\Typora\typora-user-images\image-20220618191355535.png" alt="image-20220618191355535" style="zoom:80%;" />
 
-  
-
-  <img src="C:\Users\h\AppData\Roaming\Typora\typora-user-images\image-20220613193031708.png" alt="image-20220613193031708" style="zoom:67%;" />
+<img src="C:\Users\h\AppData\Roaming\Typora\typora-user-images\image-20220618191440071.png" alt="image-20220618191440071" style="zoom:80%;" />
