@@ -1,18 +1,3 @@
-实验三图片：
-
-
-
-<img width="410" alt="work3_1" src="https://user-images.githubusercontent.com/86522948/174435987-e56ec703-29d6-4888-81ca-c13de5aec9b4.png">
-
-
-
-
-
-<img width="418" alt="work3_2" src="https://user-images.githubusercontent.com/86522948/174435992-f070b83a-5e7b-4794-bab8-71e72aeb1cd9.png">
-
-
-
-
 
 实验一图片：
 
@@ -50,4 +35,42 @@
 
 
 
+
+
+
+
+
+
+
 实验二图片：
+
+
+
+
+
+
+
+
+
+
+实验三图片：
+
+
+
+<img width="410" alt="work3_1" src="https://user-images.githubusercontent.com/86522948/174435987-e56ec703-29d6-4888-81ca-c13de5aec9b4.png">
+
+
+
+
+
+<img width="418" alt="work3_2" src="https://user-images.githubusercontent.com/86522948/174435992-f070b83a-5e7b-4794-bab8-71e72aeb1cd9.png">
+
+
+
+
+
+
+
+
+
+
